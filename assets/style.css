@@ -1,0 +1,101 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Tiny5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Tiny5&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Tiny5","Noto Sans Thai" , sans-serif;
+}
+
+body {
+    background-color: #191724;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #e0def4;
+    margin-bottom: 20px;
+}
+
+
+input[type="text"] {
+    padding: 10px;
+    width: 250px;
+    border: 2px solid #232136;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #908caa;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 30px;
+    border: none;
+    background-color: #c4a7e7;
+    color: #e0def4;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #907aa9;
+}
+
+ul {
+    list-style-type: none;
+    width: 300px;
+    margin-top: 20px;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #c4a7e7;
+    border: 1px solid #26233a;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+li:hover {
+    background-color: #393552;
+}
+
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+    background-color: #21202e;
+}
+
+
+li button {
+    background-color: #1f1d2e;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+li button:hover {
+    background-color: #eb6f92;
+}
